@@ -7,7 +7,7 @@ import Search from "./Search";
 function Home() {
   return (
     <div className="home">
-     
+
       <div className="home__header">
         <div className="home__headerLeft">
           {/* Link */}
@@ -21,16 +21,16 @@ function Home() {
           <Link to="/images">Images</Link>
           {/* Link */}
           {/* Icon */}
-          <AppsIcon/>
-          <Avatar/>
+          <AppsIcon />
+          <Avatar />
           {/* Avatar */}
         </div>
       </div>
       <div className="home__body">
-          <img alt="" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"/>
-          <div className="home__inputContainer">
-              <Search/>
-          </div>
+        <img alt="" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" />
+        <div className="home__inputContainer">
+          <Search/>
+        </div>
       </div>
     </div>
   );
